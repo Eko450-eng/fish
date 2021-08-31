@@ -1,4 +1,3 @@
-# Defined in - @ line 1
-function got --wraps='~/code/got.sh' --description 'alias got=~/code/got.sh'
-  ~/code/got.sh  $argv;
+function got --wraps=./got.sh --wraps='sh got.sh' --wraps='~/.config/fish/functions/got.sh'
+alias got='~/.config/fish/functions/got.sh'
 end

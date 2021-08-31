@@ -1,3 +1,3 @@
 function bgop
-alias bgop='~/code/bgopa.sh'
+alias bgop='~/.config/fish/functions/bgopa.sh'
 end
