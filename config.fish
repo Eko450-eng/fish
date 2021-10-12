@@ -1,2 +1,1 @@
-set fish_greeting
-	echo "Morning"
+export PATH="$HOME/.emacs.d/bin:$PATH"
