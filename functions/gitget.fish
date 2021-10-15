@@ -1,3 +1,5 @@
-function gitget --wraps='~/.config/fish/functions/gitget.sh'
-alias gitget="~/.config/fish/functions/getgit.sh"
+# Defined in /home/eko/.config/fish/functions/gitget.fish @ line 1
+function gitget
+git clone https://github.com/Eko450-eng/$1
+echo -e "\e[32mCloned $argv[1] repo"
 end
