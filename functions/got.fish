@@ -5,7 +5,7 @@ set ARG $argv[1]
 git commit -m $ARG
 set YES "y"
 echo -e "\e[32m$ARG"
-read -p "Is this correct " REPLY
+read -l -P 'Is this correct? ' REPLY
 if [ $REPLY = $YES ]
 git push
 else
