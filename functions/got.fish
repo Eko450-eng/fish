@@ -1,11 +1,11 @@
-# Defined in /home/eko/.config/fish/functions/got.fish @ line 1
+# Defined in /home/eko/.config/fish/functions/got.fish @ line 2
 function got
 git add .
 set ARG $argv[1]
 git commit -m $ARG
 set YES "y"
 echo -e "\e[32m$ARG"
-read -p "Is this correct? " REPLY
+read -p "Is this correct " REPLY
 if [ $REPLY = $YES ]
 git push
 else
