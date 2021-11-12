@@ -1,4 +1,5 @@
 function fish_greeting
 clear
-echo -e "\e[36mWelcome back Eko"
+figlet "WELCOME BACK"
+neofetch
 end
