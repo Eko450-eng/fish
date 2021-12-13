@@ -1,3 +1,3 @@
 function ds
-         doom sync
+         ~/.emacs.d/bin/doom sync
 end
