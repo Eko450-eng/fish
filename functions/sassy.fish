@@ -1,4 +1,4 @@
 function sassy
-    sass --watch css/
+    sass --watch $argv
 end
 
