@@ -10,5 +10,4 @@ set GEM_HOME = /home/eko/.local/share/gem/ruby/3.0.0
 set PATH = $JAVA_HOME/bin:$PATH
 set PATH = $JAVA_HOME/bin:$PATH:.emacs.d/bin:/home/eko/.local/share/gem/ruby/3.0.0/bin
 
-
 #export EDITOR=nvim
