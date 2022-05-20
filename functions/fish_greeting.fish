@@ -1,5 +1,4 @@
 function fish_greeting
-#clear
-#figlet "WELCOME BACK"
-#neofetch --ascii ~/Pictures/avatarColor
+	clear
+	figlet (random choice "Be Productive" "Posture" "Exercise") -w 100 -c  | lolcat 
 end

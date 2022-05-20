@@ -10,5 +10,10 @@ export JAVA_HOME=/usr/lib/jvm/default
 # set PATH = $JAVA_HOME/bin:$PATH
 # set PATH = $JAVA_HOME/bin:$PATH:.emacs.d/bin:/home/eko/.local/share/gem/ruby/3.0.0/bin
 
+alias p="sudo pacman"
+alias cmod="chmod +x"
+alias s="sudo"
+alias tree="exa --tree"
+
 set theme_color_scheme nord
 export EDITOR=nvim
