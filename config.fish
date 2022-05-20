@@ -14,6 +14,7 @@ alias p="sudo pacman"
 alias cmod="chmod +x"
 alias s="sudo"
 alias tree="exa --tree"
+alias r="ranger"
 
 set theme_color_scheme nord
 export EDITOR=nvim
