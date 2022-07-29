@@ -35,11 +35,24 @@ alias wallpaperChanger="~/.config/qtile/scripts/wallpaper.sh"
 alias xpget="xprop | grep CLASS"
 alias fishconf="nvim ~/.config/fish/config.fish"
 alias fs="source ~/.config/fish/config.fish"
+alias rmr="rm -rf"
+alias vim="~/appimg/nvim.appimage"
+alias nvim="~/appimg/nvim.appimage"
+alias v="neovide"
+
+alias nvpn="nordvpn connect australia"
+alias nnvpn="sudo nordvpn disconnect"
 
 export HOME="/home/eko"
+
+export CM_SELECTIONS="clipboard"
+export CM_DEBUG=0
+export CM_MAX_CLIPS=10
 export CM_LAUNCHER="dmenu"
 export CM_HISLENGTH=5
 export CM_DIR="~/.config/clipmenu"
+
+export EDITOR="nvim"
 
 export PATH="/home/eko/bin/Sencha/Cmd:$PATH"
 export PATH="$PATH:/home/eko/flutter/bin"
